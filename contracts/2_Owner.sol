@@ -13,6 +13,7 @@ contract Owner {
     address private owner;
 
     // event for EVM logging
+    // Audrey
     event OwnerSet(address indexed oldOwner, address indexed newOwner);
 
     // modifier to check if caller is owner
